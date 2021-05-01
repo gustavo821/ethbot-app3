@@ -54,9 +54,9 @@
                         9: "pages/cow/hybird",
                         10: "pages/guard",
                         11: "pages/index",
-                        12: "pages/ethb",
-                        13: "pages/ethbbnb",
-                        14: "pages/ethbbusd",
+                        12: "pages/ethbdoge",
+                        13: "pages/ethbada",
+                        14: "pages/ethbdot",
                         15: "pages/pumpkin"
                     }[e] || e) + "." + {
                         0: "0a04846",
