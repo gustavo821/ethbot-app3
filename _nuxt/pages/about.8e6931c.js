@@ -50,7 +50,7 @@
                             tag: "label",
                             for: "about.angier-number"
                         }
-                    }, [n("b", [t._v("1x")])])], 1), t._v(" "), n("div", [n("i18n", {
+                    }, [n("b", [t._v("2x")])])], 1), t._v(" "), n("div", [n("i18n", {
                         attrs: {
                             path: "about.genxi",
                             tag: "label",
