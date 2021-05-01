@@ -39,12 +39,12 @@
                         }
                     }, [c("a", {
                         attrs: {
-                            href: "https://bscscan.com/address/0xa1048c1962ff508e7bc90ecf3744d2421c1c1320",
+                            href: "https://bscscan.com/address/xxx",
                             target: "_blank"
                         }
-                    }, [t._v("0xa1048c1962Ff508E7bC90Ecf3744D2421C1C1320")])]), t._v(" "), c("i18n", {
+                    }, [t._v("xxx")])]), t._v(" "), c("i18n", {
                         attrs: {
-                            path: "about.ethbstaking",
+                            path: "about.ethbdogestaking",
                             tag: "label",
                             for: "about.milk-address"
                         }
@@ -55,7 +55,7 @@
                         }
                     }, [t._v("XXX")])]), t._v(" "), c("i18n", {
                         attrs: {
-                            path: "about.ethbbnb",
+                            path: "about.ethbada",
                             tag: "label",
                             for: "about.milk-address"
                         }
@@ -66,7 +66,7 @@
                         }
                     }, [t._v("xxx")])]), t._v(" "), c("i18n", {
                         attrs: {
-                            path: "about.ethbbnbstaking",
+                            path: "about.ethbadastaking",
                             tag: "label",
                             for: "about.milk-address"
                         }
@@ -77,7 +77,7 @@
                         }
                     }, [t._v("xxx")])]), t._v(" "), c("i18n", {
                         attrs: {
-                            path: "about.ethbbusd",
+                            path: "about.ethbdot",
                             tag: "label",
                             for: "about.milk-address"
                         }
@@ -88,7 +88,7 @@
                         }
                     }, [t._v("xxx")])]), t._v(" "), c("i18n", {
                         attrs: {
-                            path: "about.ethbbusdstaking",
+                            path: "about.ethbdotstaking",
                             tag: "label",
                             for: "about.milk-address"
                         }
