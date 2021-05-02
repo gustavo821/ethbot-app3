@@ -619,119 +619,6 @@
                 chainId: 56,
                 cows: [{
                     id: 1,
-                    name: "ETHBot (ETHB)",
-                    avatar: "/ETHBonly.png",
-                    desc: "Earn ETHB by Staking your ETHB Tokens!",
-                    initialized: !0,
-                    routeLink: "/ethb",
-                    address: "xxx",
-                    stakeToken: {
-                        address: "0xa1048c1962Ff508E7bC90Ecf3744D2421C1C1320",
-                        decimals: 18,
-                        symbol: "ETHB"
-                    },
-                    yieldToken: {
-                        address: "0xa1048c1962Ff508E7bC90Ecf3744D2421C1C1320",
-                        decimals: 18,
-                        symbol: "ETHB"
-                    }
-                }, {
-                    id: 2,
-                    name: "ETHB-BNB",
-                    avatar: "/ethbBNB.png",
-                    desc: "Earn ETHB by Staking your ETHB-BNB LP!",
-                    routeLink: "/ethbbnb",
-                    initialized: !0,
-                    totalAmount: 2e3,
-                    address: "xxx",
-                    stakeToken: {
-                        address: "xxx",
-                        decimals: 18,
-                        symbol: "ETHB-BNB LP"
-                    },
-                    yieldToken: {
-                        address: "0xa1048c1962Ff508E7bC90Ecf3744D2421C1C1320",
-                        decimals: 18,
-                        symbol: "ETHB"
-                    }
-                }, {
-                    id: 3,
-                    name: "ETHB-BUSD",
-                    avatar: "/ethbBUSD.png",
-                    desc: "Earn ETHB by Staking your ETHB-BUSD LP!",
-                    totalAmount: 2e3,
-                    initialized: !0,
-                    routeLink: "/ethbbusd",
-                    address: "xxx",
-                    stakeToken: {
-                        address: "xxx",
-                        decimals: 18,
-                        symbol: "ETHB-BUSD LP"
-                    },
-                    yieldToken: {
-                        address: "0xa1048c1962Ff508E7bC90Ecf3744D2421C1C1320",
-                        decimals: 18,
-                        symbol: "ETHB"
-                    }
-                }, {
-                    id: 4,
-                    name: "ETHB-CAKE",
-                    avatar: "/ethbCAKE.png",
-                    desc: "Earn ETHB by Staking your ETHB-CAKE LP!",
-                    totalAmount: 2e3,
-                    initialized: !0,
-                    routeLink: "/",
-                    address: "xxx",
-                    stakeToken: {
-                        address: "xxx",
-                        decimals: 18,
-                        symbol: "ETHB-CAKE LP"
-                    },
-                    yieldToken: {
-                        address: "0xa1048c1962Ff508E7bC90Ecf3744D2421C1C1320",
-                        decimals: 18,
-                        symbol: "ETHB"
-                    }
-                }, {
-                    id: 5,
-                    name: "ETHB-ETH",
-                    avatar: "/ethbETH.png",
-                    desc: "Earn ETHB by Staking your ETHB-ETH LP!",
-                    totalAmount: 2e3,
-                    initialized: !0,
-                    routeLink: "/",
-                    address: "xxx",
-                    stakeToken: {
-                        address: "xxx",
-                        decimals: 18,
-                        symbol: "ETHB-ETH LP"
-                    },
-                    yieldToken: {
-                        address: "0xa1048c1962Ff508E7bC90Ecf3744D2421C1C1320",
-                        decimals: 18,
-                        symbol: "ETHB"
-                    }
-                }, {
-                    id: 6,
-                    name: "ETHB-BUSDT",
-                    avatar: "/ethbBUSDT.png",
-                    desc: "Earn ETHB by Staking your ETHB-BUSDT LP!",
-                    totalAmount: 2e3,
-                    initialized: !0,
-                    routeLink: "/",
-                    address: "xxx",
-                    stakeToken: {
-                        address: "xxx",
-                        decimals: 18,
-                        symbol: "ETHB-BUSDT LP"
-                    },
-                    yieldToken: {
-                        address: "0xa1048c1962Ff508E7bC90Ecf3744D2421C1C1320",
-                        decimals: 18,
-                        symbol: "ETHB"
-                    }
-                }, {
-                    id: 7,
                     name: "ETHB-DOGE",
                     avatar: "/ethbDOGE.png",
                     desc: "Earn ETHB by Staking your ETHB-DOGE LP!",
@@ -750,7 +637,7 @@
                         symbol: "ETHB"
                     }
                 }, {
-                    id: 8,
+                    id: 2,
                     name: "ETHB-ADA",
                     avatar: "/ethbADA.png",
                     desc: "Earn ETHB by Staking your ETHB-ADA LP!",
@@ -769,7 +656,7 @@
                         symbol: "ETHB"
                     }
                 }, {
-                    id: 9,
+                    id: 3,
                     name: "ETHB-DOT",
                     avatar: "/ethbDOT.png",
                     desc: "Earn ETHB by Staking your ETHB-DOT LP!",
@@ -787,7 +674,120 @@
                         decimals: 18,
                         symbol: "ETHB"
                     }
+                },{
+                    id: 4,
+                    name: "ETHBot (ETHB)",
+                    avatar: "/ETHBonly.png",
+                    desc: "Earn ETHB by Staking your ETHB Tokens!",
+                    initialized: !0,
+                    routeLink: "/ethb",
+                    address: "xxx",
+                    stakeToken: {
+                        address: "0xa1048c1962Ff508E7bC90Ecf3744D2421C1C1320",
+                        decimals: 18,
+                        symbol: "ETHB"
+                    },
+                    yieldToken: {
+                        address: "0xa1048c1962Ff508E7bC90Ecf3744D2421C1C1320",
+                        decimals: 18,
+                        symbol: "ETHB"
+                    }
                 }, {
+                    id: 5,
+                    name: "ETHB-BNB",
+                    avatar: "/ethbBNB.png",
+                    desc: "Earn ETHB by Staking your ETHB-BNB LP!",
+                    routeLink: "/ethbbnb",
+                    initialized: !0,
+                    totalAmount: 2e3,
+                    address: "xxx",
+                    stakeToken: {
+                        address: "xxx",
+                        decimals: 18,
+                        symbol: "ETHB-BNB LP"
+                    },
+                    yieldToken: {
+                        address: "0xa1048c1962Ff508E7bC90Ecf3744D2421C1C1320",
+                        decimals: 18,
+                        symbol: "ETHB"
+                    }
+                }, {
+                    id: 6,
+                    name: "ETHB-BUSD",
+                    avatar: "/ethbBUSD.png",
+                    desc: "Earn ETHB by Staking your ETHB-BUSD LP!",
+                    totalAmount: 2e3,
+                    initialized: !0,
+                    routeLink: "/ethbbusd",
+                    address: "xxx",
+                    stakeToken: {
+                        address: "xxx",
+                        decimals: 18,
+                        symbol: "ETHB-BUSD LP"
+                    },
+                    yieldToken: {
+                        address: "0xa1048c1962Ff508E7bC90Ecf3744D2421C1C1320",
+                        decimals: 18,
+                        symbol: "ETHB"
+                    }
+                }, {
+                    id: 7,
+                    name: "ETHB-CAKE",
+                    avatar: "/ethbCAKE.png",
+                    desc: "Earn ETHB by Staking your ETHB-CAKE LP!",
+                    totalAmount: 2e3,
+                    initialized: !0,
+                    routeLink: "/",
+                    address: "xxx",
+                    stakeToken: {
+                        address: "xxx",
+                        decimals: 18,
+                        symbol: "ETHB-CAKE LP"
+                    },
+                    yieldToken: {
+                        address: "0xa1048c1962Ff508E7bC90Ecf3744D2421C1C1320",
+                        decimals: 18,
+                        symbol: "ETHB"
+                    }
+                }, {
+                    id: 8,
+                    name: "ETHB-ETH",
+                    avatar: "/ethbETH.png",
+                    desc: "Earn ETHB by Staking your ETHB-ETH LP!",
+                    totalAmount: 2e3,
+                    initialized: !0,
+                    routeLink: "/",
+                    address: "xxx",
+                    stakeToken: {
+                        address: "xxx",
+                        decimals: 18,
+                        symbol: "ETHB-ETH LP"
+                    },
+                    yieldToken: {
+                        address: "0xa1048c1962Ff508E7bC90Ecf3744D2421C1C1320",
+                        decimals: 18,
+                        symbol: "ETHB"
+                    }
+                }, {
+                    id: 9,
+                    name: "ETHB-BUSDT",
+                    avatar: "/ethbBUSDT.png",
+                    desc: "Earn ETHB by Staking your ETHB-BUSDT LP!",
+                    totalAmount: 2e3,
+                    initialized: !0,
+                    routeLink: "/",
+                    address: "xxx",
+                    stakeToken: {
+                        address: "xxx",
+                        decimals: 18,
+                        symbol: "ETHB-BUSDT LP"
+                    },
+                    yieldToken: {
+                        address: "0xa1048c1962Ff508E7bC90Ecf3744D2421C1C1320",
+                        decimals: 18,
+                        symbol: "ETHB"
+                    }
+                },  {
                     id: 10,
                     name: "IDO Launchpad Pair",
                     avatar: "/launchpad.png",
@@ -1555,10 +1555,10 @@
                 }
         },
         214: function(t) {
-            t.exports = JSON.parse('{"navbar":{"home":"Home","market":"WBNB","contracts":"Contracts","airdrop":"Airdrop","getethb":"Get $ETHB","liquidity":"Add Liquidity","about":"About","audit":"Audit","change-to-bsc":"Change to BSC","install-wallet":"Install Wallet","exchange":"Swap","guard":"Cow Guardian","nft":"NFT (Coming Soon)"},"home":{"note":"The Contract is not audited but we have verified all our contracts. Please use at your own risk.","note-launch":"ETHBot farm begins after IDO ends!","protocol-name":"⚛️  ETHBot Farm  ⚛️","protocol-desc":"ETHBot Farm offers a sustainable set of liquidity pool, staking and yield farming system.","coming-soon":"Coming soon","select":"Select","card-desc":"Deposit {symbol}","unlockWallet":"Please unlock your wallet first and refresh the page."},"airdrop":{"airdrop-plan":"Airdrop Plan","airdrop-plan-desc":" 10 MILK will be airdropped.","how-to-get":"How to get airdrop?","join":"Join the Telegram group and follow the twitter below. Each airdrop is 0.1 MILK"},"about":{"title":"ETHBot","total-supply":"Total Supply: {0} ETHB","total-supply-number":"{0}","desc":"ETHBot offers a set of liquidity pool, staking and yield farming system that runs on the Binance Smart Chain (BSC) network that provides attractive yields to the principal liquidity. ","drop-free":"With deflationary mechanisms in-built, we envision a cyptocurrency with sustainable growth over time that rewards holders of long-term staking as well as providing a fun set of non-fungible tokens (NFTs) to enhances staking rewards. As a community-driven project, ETHB tokens will also serve as governance token for proposal and voting in latter stages of the token’s growth.","drop-free-number":"{0}","cow":"Farms Allocation (Set1)","angier":"ETHB: {0} weight","angier-number":"{0}","genxi":"ETHB-BNB: {0} weight","genxi-number":"{0}","holstein":"ETHB-BUSD: {0} weight","holstein-number":"{0}","contracts":"Contracts","milk":"ETHB: {0}","milk-address":"{0}","ethbbnb-address":"{0}","cowfactory":"ETHB Factory: {0}","cowfactory-address":"{0}","angier-cow":"ETHB: {0}","genxin-cow":"ETHB-BNB: {0}","holstein1-cow":"ETHB-BUSD: {0}","holstein2-cow":"Holstein younger sister Cow: {0}","angier-cow-address":"{0}","ethbbnb":"ETHB-BNB LP {0}","ethbbnbstaking":"ETHB-BNB Staking Contract {0}","ethbbusd":"ETHB-BUSD LP {0}","ethbbusdstaking":"ETHB-BUSD Staking Contract {0}","ethbstaking":"ETHB Staking Contract {0}"},"cow":{"earned":"ETHB earned","harvest":"Harvest","symbol-staked":"{symbol} staked","approve-symbol":"Approve {symbol}","stake":"Stake","harvest-unstake":"Unstake","exit":"Harvest and Exit","balance":"Balance: ","greater-than":"Must be greater than 0","unstake":"Unstake","staking-balance":"Your staking balance: {stakingBalance} {symbol}","amount-greater-than":"Amount must be great than 0","total":"Total","available":"Your Available Balance","staking":"is staking","warning":"Warning: Because BNB lending rate On cream.finance is very high, your staking BNB may be borrowed, it will be temporarily unable to withdraw due to insufficient liquidity, and it can be withdrawn after sufficient liquidity.","desc1":"She likes BNB, and NFT COW is required.","desc2":"Each NFT COW has a limit of 500 BNB"},"market":{"tip":"Do a small amount test first, and then do a large amount operation.","from":"From {symbol}","balance":"Balance: {balance}","greather-than":"Must be greater than 0","to":"To {symbol}","swap":"Swap {symbol}","amount":"Amount","title-swap":"Exchange","title-transaction":"Transaction","copied":"Copied","success":"Success","error":"Failed"},"footerbar":{"twitter":"Twitter","telegram":"Telegram(Chinese)","telegram_en":"Telegram","github":"GitHub"},"nft":{"about":"About Cow Guard Plan"}}')
+            t.exports = JSON.parse('{"navbar":{"home":"Home","market":"WBNB","contracts":"Contracts","airdrop":"Airdrop","getethb":"Get $ETHB","liquidity":"Add Liquidity","about":"About","audit":"Audit","change-to-bsc":"Change to BSC","install-wallet":"Install Wallet","exchange":"Swap","guard":"Cow Guardian","nft":"NFT (Coming Soon)"},"home":{"note":"The Contract is not audited but we have verified all our contracts. Please use at your own risk.","note-launch":"ETHBot farm begins after IDO ends!","protocol-name":"⚛️  ETHBot Farm  ⚛️","protocol-desc":"ETHBot Farm offers a sustainable set of liquidity pool, staking and yield farming system.","coming-soon":"Coming soon","select":"Select","card-desc":"Deposit {symbol}","unlockWallet":"Please unlock your wallet first and refresh the page."},"airdrop":{"airdrop-plan":"Airdrop Plan","airdrop-plan-desc":" 10 MILK will be airdropped.","how-to-get":"How to get airdrop?","join":"Join the Telegram group and follow the twitter below. Each airdrop is 0.1 MILK"},"about":{"title":"ETHBot","total-supply":"Total Supply: {0} ETHB","total-supply-number":"{0}","desc":"ETHBot offers a set of liquidity pool, staking and yield farming system that runs on the Binance Smart Chain (BSC) network that provides attractive yields to the principal liquidity. ","drop-free":"With deflationary mechanisms in-built, we envision a cyptocurrency with sustainable growth over time that rewards holders of long-term staking as well as providing a fun set of non-fungible tokens (NFTs) to enhances staking rewards. As a community-driven project, ETHB tokens will also serve as governance token for proposal and voting in latter stages of the token’s growth.","drop-free-number":"{0}","cow":"Farms Allocation (Set3)","angier":"ETHB-DOGE: {0} weight","angier-number":"{0}","genxi":"ETHB-ADA: {0} weight","genxi-number":"{0}","holstein":"ETHB-DOT: {0} weight","holstein-number":"{0}","contracts":"Contracts","milk":"ETHB-DOGE: {0}","milk-address":"{0}","ethbADA-address":"{0}","cowfactory":"ETHB Factory: {0}","cowfactory-address":"{0}","angier-cow":"ETHB-DOGE: {0}","genxin-cow":"ETHB-ADA: {0}","holstein1-cow":"ETHB-DOT: {0}","holstein2-cow":"Holstein younger sister Cow: {0}","angier-cow-address":"{0}","ethbbnb":"ETHB-ADA LP {0}","ethbadastaking":"ETHB-ADA Staking Contract {0}","ethbdot":"ETHB-BUSD LP {0}","ethbbusdstaking":"ETHB-DOT Staking Contract {0}","ethbstaking":"ETHB Staking Contract {0}"},"cow":{"earned":"ETHB earned","harvest":"Harvest","symbol-staked":"{symbol} staked","approve-symbol":"Approve {symbol}","stake":"Stake","harvest-unstake":"Unstake","exit":"Harvest and Exit","balance":"Balance: ","greater-than":"Must be greater than 0","unstake":"Unstake","staking-balance":"Your staking balance: {stakingBalance} {symbol}","amount-greater-than":"Amount must be great than 0","total":"Total","available":"Your Available Balance","staking":"is staking","warning":"Warning: Because BNB lending rate On cream.finance is very high, your staking BNB may be borrowed, it will be temporarily unable to withdraw due to insufficient liquidity, and it can be withdrawn after sufficient liquidity.","desc1":"She likes BNB, and NFT COW is required.","desc2":"Each NFT COW has a limit of 500 BNB"},"market":{"tip":"Do a small amount test first, and then do a large amount operation.","from":"From {symbol}","balance":"Balance: {balance}","greather-than":"Must be greater than 0","to":"To {symbol}","swap":"Swap {symbol}","amount":"Amount","title-swap":"Exchange","title-transaction":"Transaction","copied":"Copied","success":"Success","error":"Failed"},"footerbar":{"twitter":"Twitter","telegram":"Telegram(Chinese)","telegram_en":"Telegram","github":"GitHub"},"nft":{"about":"About Cow Guard Plan"}}')
         },
         215: function(t) {
-            t.exports = JSON.parse('{"navbar":{"home":"首页","market":"WBNB兑换","airdrop":"空投","about":"关于","getethb":"获取 $ETHB","contracts":"智能合约/原始码","audit":"审计","change-to-bsc":"更换为币安智能链","install-wallet":"安装钱包","exchange":"交易","guard":"奶牛守卫","nft":"NFT(即将到来)","liquidity":"增加流动"},"home":{"note":"该合约开源但未经过审核, 请自行承担使用风险。","note-launch":"HPP农场将于2月21日UTC开始！","protocol-name":"⚛️  ETHBot Farm  ⚛️ ","protocol-desc":"ETHBot 提供了一套可持续的流动资金池和增产收益农场体系。","coming-soon":"即将到来","select":"选择","card-desc":"喜欢 {symbol}","unlockWallet":"请先解锁你的钱包并刷新页面。"},"airdrop":{"airdrop-plan":"空投计划","airdrop-plan-desc":"MILK计划空投的数量为 10","how-to-get":"如何获得空投?","join":"加入官方电报群并且关注Twitter官方账号。每次空投将有0.1 MILK"},"about":{"title":"ETHBot","total-supply":"总供应量: {0} ETHB","total-supply-number":"{0}","desc":"金瓜Defi提供一套可持续挖的流动性矿池以及Yield Farming系统，在Binance币安智能链（BSC）网络上运行，为流动性提供有吸引力的收益。","drop-free":"可持续的代币增长: 我们设想代币的供需平衡，以实$ETHB的可持续增长。随着通货紧缩机制的建立，每一$ETHB交易中的1%将从总供应中烧掉。 总供应量的一部分将被分配用于回购，以控制通胀压力。","drop-free-number":"{0}","cow":"代币排放分配","angier":"ETHB: 总量 {0} ","angier-number":"{0}","genxi":"ETHB-BNB: 总量 {0} ","genxi-number":"{0}","holstein":"ETHB-BUSD: 总量 {0}","holstein2":"荷斯坦妹妹: 总量 2000 MILK，每天 100 MILK，共20天。","holstein-number":"{0}","contracts":"合约","milk":"ETHB: {0}","milk-address":"{0}","cowfactory":"农场: {0}","cowfactory-address":"{0}","angier-cow":"昂格尔: {0}","genxin-cow":"根西: {0}","holstein1-cow":"荷斯坦姐姐: {0}","holstein2-cow":"荷斯坦妹妹: {0}","angier-cow-address":"{0}","ETHBbnb":"ETHB-BNB LP {0}","ETHBbnbstaking":"ETHB-BNB Staking Contract {0}","ETHBbusd":"ETHB-BUSD LP {0}","ethbbusdstaking":"ETHB-BUSD Staking Contract {0}","ethbstaking":"ETHB Staking Contract {0}"},"cow":{"earned":"已赚取ETHB","harvest":"收获","symbol-staked":"已质押{symbol}","approve-symbol":"批准{symbol}","stake":"质押","available":"您的可用余额","harvest-unstake":"解押","exit":"收获并退出","balance":"余额: ","greater-than":"必须大于0","unstake":"解押","staking-balance":"您的质押余额: {stakingBalance} {symbol}","amount-greater-than":"数量必须大于0","total":"总共","staking":"在挖矿","warning":"提醒: 由于近期CREAM.finance的BNB借出率很高，挖矿的BNB可能会被借走，所以取出的时候会由于流动性不足而暂时不能提出来，可以等流动性充足再提取。","desc1":"她喜欢BNB，但是必须锁定 NFT COW 才能挤奶","desc2":"每个 NFT COW 限额 500 BNB"},"market":{"tip":"提醒：先做小额测试，再做大额操作。","from":"从 {symbol}","balance":"余额: {balance}","greather-than":"必须大于0","to":"到 {symbol}","swap":"兑换为 {symbol}","amount":"数量","title-swap":"兑换","title-transaction":"交易","copied":"已复制","success":"成功","error":"Failed"},"footerbar":{"twitter":"Twitter","telegram":"电报(中文)","telegram_en":"电报","github":"GitHub"},"nft":{"about":"关于奶牛守卫计划"}}')
+            t.exports = JSON.parse('{"navbar":{"home":"首页","market":"WBNB兑换","airdrop":"空投","about":"关于","getethb":"获取 $ETHB","contracts":"智能合约/原始码","audit":"审计","change-to-bsc":"更换为币安智能链","install-wallet":"安装钱包","exchange":"交易","guard":"奶牛守卫","nft":"NFT(即将到来)","liquidity":"增加流动"},"home":{"note":"该合约开源但未经过审核, 请自行承担使用风险。","note-launch":"HPP农场将于2月21日UTC开始！","protocol-name":"⚛️  ETHBot Farm  ⚛️ ","protocol-desc":"ETHBot 提供了一套可持续的流动资金池和增产收益农场体系。","coming-soon":"即将到来","select":"选择","card-desc":"喜欢 {symbol}","unlockWallet":"请先解锁你的钱包并刷新页面。"},"airdrop":{"airdrop-plan":"空投计划","airdrop-plan-desc":"MILK计划空投的数量为 10","how-to-get":"如何获得空投?","join":"加入官方电报群并且关注Twitter官方账号。每次空投将有0.1 MILK"},"about":{"title":"ETHBot","total-supply":"总供应量: {0} ETHB","total-supply-number":"{0}","desc":"金瓜Defi提供一套可持续挖的流动性矿池以及Yield Farming系统，在Binance币安智能链（BSC）网络上运行，为流动性提供有吸引力的收益。","drop-free":"可持续的代币增长: 我们设想代币的供需平衡，以实$ETHB的可持续增长。随着通货紧缩机制的建立，每一$ETHB交易中的1%将从总供应中烧掉。 总供应量的一部分将被分配用于回购，以控制通胀压力。","drop-free-number":"{0}","cow":"代币排放分配","angier":"ETHB-DOGE: 总量 {0} ","angier-number":"{0}","genxi":"ETHB-ADA: 总量 {0} ","genxi-number":"{0}","holstein":"ETHB-DOT: 总量 {0}","holstein2":"荷斯坦妹妹: 总量 2000 MILK，每天 100 MILK，共20天。","holstein-number":"{0}","contracts":"合约","milk":"ETHB-DOGE: {0}","milk-address":"{0}","cowfactory":"农场: {0}","cowfactory-address":"{0}","angier-cow":"昂格尔: {0}","genxin-cow":"根西: {0}","holstein1-cow":"荷斯坦姐姐: {0}","holstein2-cow":"荷斯坦妹妹: {0}","angier-cow-address":"{0}","ETHBada":"ETHB-ada LP {0}","ETHBadastaking":"ETHB-ADA Staking Contract {0}","ETHBdot":"ETHB-DOT LP {0}","ethbDOTstaking":"ETHB-DOT Staking Contract {0}","ethbstaking":"ETHB Staking Contract {0}"},"cow":{"earned":"已赚取ETHB","harvest":"收获","symbol-staked":"已质押{symbol}","approve-symbol":"批准{symbol}","stake":"质押","available":"您的可用余额","harvest-unstake":"解押","exit":"收获并退出","balance":"余额: ","greater-than":"必须大于0","unstake":"解押","staking-balance":"您的质押余额: {stakingBalance} {symbol}","amount-greater-than":"数量必须大于0","total":"总共","staking":"在挖矿","warning":"提醒: 由于近期CREAM.finance的BNB借出率很高，挖矿的BNB可能会被借走，所以取出的时候会由于流动性不足而暂时不能提出来，可以等流动性充足再提取。","desc1":"她喜欢BNB，但是必须锁定 NFT COW 才能挤奶","desc2":"每个 NFT COW 限额 500 BNB"},"market":{"tip":"提醒：先做小额测试，再做大额操作。","from":"从 {symbol}","balance":"余额: {balance}","greather-than":"必须大于0","to":"到 {symbol}","swap":"兑换为 {symbol}","amount":"数量","title-swap":"兑换","title-transaction":"交易","copied":"已复制","success":"成功","error":"Failed"},"footerbar":{"twitter":"Twitter","telegram":"电报(中文)","telegram_en":"电报","github":"GitHub"},"nft":{"about":"关于奶牛守卫计划"}}')
         },
         29: function(t, e, n) {
             "use strict";
